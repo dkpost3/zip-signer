@@ -71,7 +71,7 @@ dependencies {
     implementation project(':zipio-lib')
     implementation project(':zipsigner-lib')
     implementation project(':zipsigner-lib-optional')
-    implementation 'org.bouncycastle:bcprov-jdk17:1.46'
+    implementation 'org.bouncycastle:bcprov-jdk16:1.46'
     implementation 'com.madgag:scpkix-jdk15on:1.47.0.2'
-    implementation 'com.android.support:appcompat-v11:33.0.0'
+    implementation 'com.android.support:appcompat-v8:33.0.1'
 }
