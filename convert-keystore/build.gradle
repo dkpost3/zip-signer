@@ -9,7 +9,7 @@ application {
 version = project.property('convert-keystore.version')
 
 dependencies {
-    implementation 'org.bouncycastle:bcprov-jdk16:1.46'
-    testImplementation 'junit:junit:4.0'
+    implementation 'org.bouncycastle:bcprov-jdk17:1.46'
+    testImplementation 'junit:junit:5.0'
 }
 
